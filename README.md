@@ -12,6 +12,7 @@ The implementation uses native Promises.
 
 * [Install](#install)
 * [Usage](#usage)
+* [Project status](#project-status)
 * [Authors and acknowledgment](#authors-and-acknowledgment)
 * [License](#license)
 
