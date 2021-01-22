@@ -1,0 +1,21 @@
+{
+  "name": "@hearit-io/puppeteer-scraping-example",
+  "version": "1.0.0",
+  "description": "A scraping web page example",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://hearit.io Emil Usunov <emil@hearit.io>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "keywords": [
+    "scraping",
+    "web",
+    "page",
+    "example",
+    "puppeteer"
+  ]
+}
