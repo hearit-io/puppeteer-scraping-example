@@ -9,7 +9,7 @@
 * Scrapes the page and stores the results in the files
 * ./demo-shop.natek.eu/hierarchy.json and ./demo-shop.natek.eu/products.json.
 *
-* Usage: 
+* Usage:
 *
 * node scrape https://demo-shop.natek.eu
 *
@@ -22,7 +22,7 @@
 'use strict'
 const fs = require('fs').promises
 
-let supportedInputUrls = ['https://demo-shop.natek.eu']
+const supportedInputUrls = ['https://demo-shop.natek.eu']
 
 const inputUrl = process.argv[2]
 if (!inputUrl) {
@@ -39,7 +39,7 @@ const url = new URL(inputUrl)
 const { scrape } = require(`./lib/${url.hostname}`)
 
 // ----------------------------------------------------------------------------|
-async function main() {
+async function main () {
   try {
     // Do the job
     const data = await scrape(inputUrl)
@@ -60,6 +60,5 @@ async function main() {
     console.log(error)
     process.exit(1)
   }
-  
 }
 main()

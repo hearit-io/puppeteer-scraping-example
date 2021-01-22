@@ -35,6 +35,8 @@ To scrape the demo shop page call the following command:
 node scrape https://demo-shop.natek.eu
 ```
 
+The results are JSON formatted files in the directory `demo-shop.natek.eu`.
+
 ## Project status
 
 ### [hearit.io](https://hearit.io)
@@ -42,8 +44,6 @@ node scrape https://demo-shop.natek.eu
 
 <img src="https://raw.githubusercontent.com/hearit-io/graphics/main/hearing-black-96dp.svg" width="48" height="48"/> | Smart home automatization designed for visually impaired people.
 ------------ | -------------
-
-**fastify-redis-channels** is used productive in our web [app](https://hearit.io/demo). The package will be updated and maintained in a regular base. 
 
 The main goals of [hearit.io](https://hearit.io) is to make accessible the world of IoT to everyone. 
 
